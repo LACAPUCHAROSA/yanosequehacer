@@ -1,0 +1,200 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+body{
+    margin: 0%;
+    background-position: center;    
+    background-image: url("lindo.jpg");
+    image-orientation: initial;
+    contain: 100%;
+    overflow: scroll;
+}
+
+header{
+
+    
+    background-size: cover;
+    padding: 0%;
+margin-left: 0px;
+margin-bottom: 100px;
+    background-color: paleturquoise;
+    
+}
+
+div{
+    border: black;
+    display: flex;
+   flex-direction: row;
+
+}
+
+#galeria{
+background-color: seashell;
+height: 100%;
+width: 100%;
+flex-direction: row;
+justify-content: center;
+
+}
+
+#contacto{
+
+    background-color: lightblue;
+    height: 80px;
+    width: 30%;
+    margin-left: 700px;
+}
+h1{
+    font-family: fantasy;
+    font-size: 50;
+    color: purple;
+
+        animation-duration: 2s;
+        animation-name: aparecer;
+        animation-iteration-count: infinite;
+}
+     
+     
+     @keyframes aparecer {
+        0% {
+          opacity: 0;
+        }
+        100% {
+          opacity: 1;
+        }
+     }
+     
+}
+
+h2{
+    font-family: 'Allison', cursive;
+    color: blueviolet;
+}
+p{
+     font-family: 'Allison', cursive;
+     font-size: xx-large;
+     color: rgb(136, 57, 209);
+     font-weight: bolder;
+}
+
+
+nav{
+    height: 100px;
+    width: 100%;
+    font-family: fantasy;
+    font-size: 20;
+    color: seashell;
+    border: 4px solid blue;
+    margin: 0%;
+    display: flex;
+   justify-content: space-around;
+   background-image: linear-gradient(to left, rgb(46, 44, 179) , rgb(1, 14, 20))
+   
+
+    
+} 
+
+ul{
+    height: 100%;
+    width: 100%;
+    background-color: cornflowerblue;
+    text-decoration: none;
+    list-style-position:unset;
+    overflow:scroll ;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+
+}
+table{
+    height: 300px;
+    width: 500px;
+    background-color: rgb(58, 58, 148);
+    border: solid;
+    border-color: black;
+    position: fixed;
+    margin-left: 300px;
+}
+
+fieldset{
+
+    margin: 10px 10px 10px 10px;
+
+}
+
+#productos{
+
+    display: grid;
+    grid-template-columns: 20% 30% 20% 30%;
+    grid-template-rows: 200px 300px 400px;
+    grid-template-areas: "salidas salidas salidas"
+    "experiencias experiencias experiencias experiencias"
+    "excurciones excurciones excurciones excurciones";
+        height: 500px;
+        background-color: lightgreen;
+
+
+}
+
+#salidas{
+
+    height: 300px;
+    width: 200px;
+    background-color: blue;
+    grid-area: "salidas";
+
+}
+#salidaspar{
+    font-family: fantasy;
+    font-size: 100%;
+    color: rgb(37, 37, 56);
+}
+#experiencias{
+    height: 300px;
+    width: 200px;
+    background-color: rgb(0, 214, 252);
+    grid-area: "experiencias";
+
+}
+#experienciaspar{
+    font-family: fantasy;
+    font-size: 100%;
+    color: rgb(37, 37, 56);
+}
+
+#excursiones{
+    height: 300px;
+    width: 200px;
+    background-color: rgb(0, 59, 252);
+    grid-area: "excurciones";
+
+}
+
+#excursionespar{
+    font-family: fantasy;
+    font-size: 100%;
+    color: rgb(37, 37, 56);
+}
+
+
+section:hover{
+    
+
+    transform: skewX(20deg);
+    transform: scale(20 20 );
+    
+
+}
+     
+
+
+#footer{
+    background-color: rgb(68, 68, 124);
+    font-family: 'Allison';
+    font-size: xx-large;
+    color: rgb(136, 57, 209);
+    font-weight: bolder;
+
+}
